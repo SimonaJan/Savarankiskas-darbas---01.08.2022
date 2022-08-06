@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.fa-facebook {
+    border-radius: 50%;
+    background-color: rgb(78, 36, 217);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.fa-twitter {
+    color: rgb(78, 36, 217);
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+    background-color: rgb(78, 36, 217);
+    color: white;
+    margin-right: 10px;
+}
+
+nav .fa {
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.fa:hover {
+    background-color: blueviolet;
+}
+
+.todo {
+    color: rgb(78, 36, 217);
+}
+
+.page {
+    background-color: rgb(244, 251, 252);
+    border-top: 0.1rem rgba(128, 128, 128, 0.252) inset;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-box {
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(160, 159, 159);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    display: flex;
+    gap: none;
+    justify-content: center; 
+}
+
+.txt {
+    background-color: rgb(228, 223, 223);
+    width: 80%;
+    height: 30px;
+    border-color: rgb(185, 182, 182);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+}
+
+.txt:focus {
+    border-color: rgb(220, 240, 41);
+}
+
+.btn {
+    width: 20%;
+    height: 36px;
+    background-color: rgb(78, 36, 217);
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.first-box h6 {
+    color: rgb(114, 33, 33);
+    margin-top: 3px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.second-box {
+    background-color: white;
+    width: 640px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(160, 159, 159);
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.third-box {
+    background-color: white;
+    width: 640px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(160, 159, 159);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+}
+
+.icons i {
+    padding-right: 20px;
+}
+
+.checkbox {
+    border: none;
+    border-radius: 100%;
+    color: green;
+    background-color: white;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+

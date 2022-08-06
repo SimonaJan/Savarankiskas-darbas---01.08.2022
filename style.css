@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.fa-facebook {
+    border-radius: 50%;
+    background-color: rgb(78, 36, 217);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.fa-twitter {
+    color: rgb(78, 36, 217);
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+    background-color: rgb(78, 36, 217);
+    color: white;
+    margin-right: 10px;
+}
+
+nav .fa {
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.fa:hover {
+    background-color: blueviolet;
+}
+
+.todo {
+    color: rgb(78, 36, 217);
+}
+
+.page {
+    background-color: rgb(244, 251, 252);
+    border-top: 0.1rem rgba(128, 128, 128, 0.252) inset;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+background-color: white;
+padding: 10px;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.form {
+    text-align: left;
+    padding: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 70%;
+}
+
+.readonly {
+    border-color: white;
+    border-style: none;
+}
+
+.name {
+    background-color: rgb(228, 223, 223);
+    border: rgb(194, 191, 191);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.btn {
+    width: 85%;
+    margin: 0;
+    color: white;
+    background-color: rgb(78, 36, 217);
+    border: none;
+    border-radius: 5px;
+}
+
+h6 {
+    color: rgb(114, 33, 33);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn2 {
+    color: white;
+    background-color: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:valid {
+    border: green solid;
+}
+
+input:invalid {
+    border: rgb(207, 19, 19) solid;
+}
+
+
+
+
