@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <title>ToDo task</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To Do task">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,23 +16,23 @@
     <header>
         <h1>Best <span class="todo">ToDo</span> App</h1>
         <nav>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fa fa-linkedin" aria-label="Linkedinn"></a>
         </nav>
     </header>
     <div class="page">
     <div class="box">
-    <h3>Edit Task</h3>
+    <h2>Edit Task</h2>
     <form class="form">
     <label for="TaskID">Task ID</label>
-    <input class="readonly" type="number" name="TaskID" value="123456789" readonly/><br/>
+    <input class="readonly" type="number" name="TaskID" id="TaskID" value="123456789" readonly/><br/>
     <label for="name">Name</label>
-    <input class="name" type="text" name="name" value="Take out trashes" required/><br/>
+    <input class="name" type="text" name="name" id="name" value="Take out trashes" required/><br/>
     <label for="checkbox">Completed</label>
-    <input type="checkbox" name="checkbox" required/><br/>
+    <input type="checkbox" name="checkbox" id="checkbox" required/><br/>
     <input class="btn" type="button" value="Edit"/>
-    <h6>There was an error</h6>
+    <h3>There was an error</h3>
 </form>
 </div>
 <button type="button" class="btn2" href="file:///C:/Users/5029sku/Downloads/Savarankiskas%20darbas%20-%2001.08.2022/index.html">Back To Tasks</button>

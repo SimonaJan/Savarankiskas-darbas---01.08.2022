@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-display: swap;
 }
 
 header {
@@ -93,7 +94,7 @@ nav .fa {
     border-bottom-right-radius: 5px;
 }
 
-.first-box h6 {
+.first-box h3 {
     color: rgb(114, 33, 33);
     margin-top: 3px;
     text-align: left;
@@ -146,5 +147,11 @@ nav .fa {
 input[type="checkbox"]:checked + label {
     text-decoration: line-through;
 }
+
+.checkbox:focus {
+    border: 2px solid #9bbae2;
+}
+
+
 
 

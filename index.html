@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <title>ToDo app</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To Do app">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,23 +17,23 @@
     <header>
         <h1>Best <span class="todo">ToDo</span> App</h1><!-- Komentaras -->
         <nav>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fa fa-linkedin" aria-label="Linkedinn"></a>
         </nav>
     </header>
     <main class="page">
         <section>
-            <div class="first-box"><h3>Your Tasks</h3>
+            <div class="first-box"><h2>Your Tasks</h2>
                 <div class="input">
                 <input type="text" class="txt" placeholder="e.g. wash dishes">
                 <button class="btn">Add</button>
                 </div>
-                <h6>There was an error</h6>
+                <h3>There was an error</h3>
                 </div>
             <div class="second-box">
                 <div>
-                <input class="checkbox" type="checkbox" name="trashes"/>
+                <input class="checkbox" type="checkbox" name="trashes" id="trashes" tabindex="0" aria-checked="false" onclick="changeCheckbox()" onKeyDown="changeCheckbox(event.keyCode)"/>
                 <label for="trashes" name="trasges">Take Out Trashes</label>
             </div>
                 <div class="icons">
@@ -39,7 +43,7 @@
             </div>
             <div class="third-box">
                 <div>
-                    <input class="checkbox" type="checkbox" name="dog"/>
+                    <input type="checkbox" class="checkbox" name="dog" id="dog" tabindex="0" aria-checked="false" onclick="changeCheckbox()" onKeyDown="changeCheckbox(event.keyCode)" />
                     <label for="dog" name="dog">Walk The Dog</label>
                 </div>
                 <div class="icons">

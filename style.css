@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-display: swap;
 }
 
 header {
@@ -92,7 +93,7 @@ input {
     border-radius: 5px;
 }
 
-h6 {
+h3 {
     color: rgb(114, 33, 33);
     margin-top: 20px;
     text-align: center;
